@@ -1,6 +1,6 @@
 function computeAverage(arr) {
   let ans = 0
-  for (let n in arr) {
+  for (let n of arr) {
     ans += n
   }
   return ans / arr.length
